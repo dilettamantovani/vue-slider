@@ -3,6 +3,11 @@ body {
     background-color: rgb(139, 228, 139);
 }
 
+.card {
+    width: 15rem;
+    aspect-ratio: 1;
+}
+
 .invisible { display: none}
 
 .visible { display: block;}

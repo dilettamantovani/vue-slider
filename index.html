@@ -15,7 +15,7 @@
 
             <div id="wrapper" class="row justify-content-center align-items-center">
 
-                <div id="cards-wrapper" class="col-12">
+                <div id="cards-wrapper" class="col-12 d-flex justify-content-center mb-2">
                     <div class="card" v-for="(slides, i) in slides" :class ="{invisible: (i != slideNumber) }" :class ="{visible: (i == slideNumber) }">
                         <img :src="slides.immagine">
                         <div class="card-body">
